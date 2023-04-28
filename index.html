@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Library</h1>
+      <button class="add-book">+</button>
+    </header>
+    <div class="modal">
+      <form id="form" class="form">
+        <span id="remove_x" class="remove-x">x</span>
+        <h4>Book Title</h4>
+        <input
+          type="text"
+          id="input-title"
+          placeholder="Enter the books title"
+        />
+        <h4>Book author</h4>
+        <input
+          type="text"
+          id="input-author"
+          placeholder="Enter the books' author"
+        />
+        <button id="add_book" type="submit">Add Book</button> 
+      </form>
+    </div>
+    <div class="bookShelf">
+      <!-- <div class="book">
+        <p>Title</p>
+        <p>Author</p>
+        <button>Remove</button>
+      </div> -->
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

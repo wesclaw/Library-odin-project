@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  margin-top: 50px;
+}
+
+h1{
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+
+body {
+  background-color: rgba(221, 111, 60, 0.616);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.add-book {
+  padding: 20px;
+  border-radius: 50%;
+  font-size: 3rem;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 10px 0px 3px rgba(0, 0, 0, 0.705);
+} 
+
+.add-book:active{
+  box-shadow: 5px 0px 0px black;
+}
+
+.bookShelf {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+  justify-content: center;
+  column-gap: 15px;
+  row-gap: 15px;
+}
+
+.remove-x{
+  position: absolute;
+  right: 20px;
+  top: 0px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.form {
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+  background-color: rgb(197, 197, 181);
+  padding: 30px;
+  border-radius: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.remove_btn_el {
+  padding: 5px;
+  background-color: lightcoral;
+  border-radius: 5px;
+  cursor: pointer;
+  color: ghostwhite;
+  border: none;
+  font-family: cursive;
+}
+
+input {
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.form button {
+  padding: 10px;
+}
+
+.book {
+  background-color: rgba(0, 0, 0, 0.692);
+  width: 150px;
+  height: 190px;
+  color: rgba(248, 248, 255, 0.664);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+  box-shadow: 10px 0px 5px black;
+}
